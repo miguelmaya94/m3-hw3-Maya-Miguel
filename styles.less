@@ -1,8 +1,19 @@
 
-//@height: 10px;
-@font-family:'arial';
-
-
+@font-family: 'font-family: 'Roboto', sans-serif;';
+@colorOne:#050500;
+@colorTwo:#F8DF1F;
+button.x {
+    font-family: 'font-family: 'Roboto', sans-serif;';
+    font-size: 1rem;
+    color: @colorOne;
+    font-weight: 500;
+    text-transform: uppercase;
+    background-color: #F8DF1F;
+    padding: 10px;
+    border-radius: 5px;
+    display:inline-block;
+    border:hidden;
+}
 
 
 html, body {
@@ -24,6 +35,7 @@ ul {
     padding: 0;
     overflow: hidden;
     background-color: #F8DF1F;
+  
 }
 
 li {
@@ -38,11 +50,14 @@ li {
     text-decoration: none;
 font-family:  @font-family;
     font-size:1rem;
+    font-weight:500;
+   
     
 }
 
 li:hover:not(.active) {
-    background-color: red;
+   
+   color:red;
 }
 
 .active {
@@ -63,25 +78,34 @@ li:hover:not(.active) {
  
 
 }
+.container-fluid {
+    text-align: left;
+    max-width: 90%;
+    font-family: @font-family;
+    font-size:1rem;
+    font-weight:400;
+}
 
 
 .banner {
     justify-content: center;
-    margin-top:15%;
-   
+    margin-top: 10%;
+ 
+
 }
 
+
 .footer {
- 
     height: 150px;
     background-color: black;
     justify-content: center;
-    margin-left:auto;
-    margin-right:auto;
-    text-align:center;
+    margin-left: auto;
+    margin-right: auto;
+    text-align: center;
+    
 }
-.col-6 {
-    background-color: #F3F3F7;
-    max-width: 100%;
-
+.col-6{
+    background-color:#F3F3F3;
+    width:100%;
 }
+span{color:red;}
